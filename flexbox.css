@@ -1,0 +1,14 @@
+#table {
+    display: flex;
+    flex-direction: column;
+}
+
+#table > div {
+    display: flex;
+    flex-direction: row;
+}
+
+#table > div > div {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
